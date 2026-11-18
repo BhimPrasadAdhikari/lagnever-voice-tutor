@@ -1,5 +1,29 @@
 # Lagnever voice tutor
 
+A real-time voice maths tutor you can run locally: for developers building voice AI agents,
+AI tutors and EdTech products, including JEE and CBSE maths.
+
+![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue)
+![License: MIT](https://img.shields.io/badge/license-MIT-green)
+![Tests passing](https://img.shields.io/badge/tests-passing-brightgreen)
+![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)
+
+**Why it's different**
+
+- **Coaches instead of answering.** Approach first, then the student says each step; right steps are
+  ticked, wrong ones struck in red pen with the correction.
+- **Maths verified by sympy, not the model.** If the checker and the model disagree, sympy wins.
+- **The voice layer never does maths itself.** It listens, bridges the wait, and reads the tutor's reply
+  word for word.
+
+**Quick start in 3 commands** (after `cp .env.example .env` and adding your keys; full steps below)
+
+```bash
+pip install -r requirements.txt
+python setup_agent.py
+python app.py   # open http://localhost:8766
+```
+
 A real-time voice maths tutor that **coaches instead of just answering**. The student talks through a
 problem out loud; the tutor writes the approach first, ticks right steps, strikes wrong ones in red pen
 with the correction, and remembers each student's past slips so it can warn them before a risky step.
