@@ -161,6 +161,10 @@ every reply under 5 s.
 - [Vocal Bridge](https://vocalbridgeai.com) for the voice layer
 - [SymPy](https://www.sympy.org) for step checking
 
+## Related
+
+- [lagnever-learning-knowledge-graph](https://github.com/BhimPrasadAdhikari/lagnever-learning-knowledge-graph): the personalised curriculum knowledge graph that gives this tutor each student's mastery and tricky spots.
+
 ## License
 
 [MIT](LICENSE)
