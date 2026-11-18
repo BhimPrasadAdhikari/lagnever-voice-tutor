@@ -1,0 +1,7 @@
+{
+  "realtime": {
+    "model": "gpt-realtime-1.5",
+    "turn_detection_type": "semantic_vad",
+    "semantic_eagerness": "low"
+  }
+}

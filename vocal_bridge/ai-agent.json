@@ -1,0 +1,5 @@
+{
+  "enabled": true,
+  "description": "Lagnever maths tutor brain. Send it exactly what the student said, word for word. It returns the tutor's spoken reply, which must be read aloud verbatim.",
+  "verbatim": true
+}

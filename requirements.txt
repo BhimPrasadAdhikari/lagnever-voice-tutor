@@ -1,0 +1,9 @@
+anthropic>=0.40
+sympy>=1.12
+fastapi>=0.110
+uvicorn>=0.29
+pydantic>=2.6
+requests>=2.31
+python-dotenv>=1.0
+vocal-bridge>=0.29        # provides the `vb` CLI used by setup_agent.py
+pytest>=8                 # tests only

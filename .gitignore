@@ -1,0 +1,7 @@
+.env
+student_memory.json
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
